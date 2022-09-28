@@ -13,8 +13,7 @@ const game  = () => {
     const startGame = () => {
         playBtn.addEventListener("click", () => {
             intro.classList.add("fadeOut");
-            battle.classList.add("fadeIn");
-            endGame.classList.add("fadeOut");    
+            battle.classList.add("fadeIn");    
         });
     }
     
